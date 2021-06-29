@@ -8,3 +8,4 @@ Hints:
 Consider use range(#begin, #end) method
 """
 
+print("Hello!")
