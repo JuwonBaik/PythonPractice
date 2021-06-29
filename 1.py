@@ -8,4 +8,13 @@ Hints:
 Consider use range(#begin, #end) method
 """
 
-print("Hello!")
+a = 0
+for i in range(2000,3201):
+    if i%5!=0:
+        if i%7==0:
+            if(a==0):
+                 print(i,end='')
+            else:
+                print(end=', ')
+                print(i,end='')
+            a=a+1
