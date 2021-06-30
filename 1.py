@@ -15,6 +15,6 @@ for i in range(2000,3201):
             if(a==0):
                  print(i,end='')
             else:
-                print(end=', ')
-                print(i,end='')
+                #print(end=', ')
+                print(',', i,end='')
             a=a+1
