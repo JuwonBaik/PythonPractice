@@ -1,3 +1,4 @@
+"""""
 Question:
 Write a program which can compute the factorial of a given numbers.
 The results should be printed in a comma-separated sequence on a single line.
@@ -8,3 +9,18 @@ Then, the output should be:
 
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
+"""
+
+def factorial(num):
+    result = 1
+    for i in range(2,num+1):
+        result = i*result
+    return result
+
+a = input("Enter numbers : ").split()
+print("Factorial of given numbers : ",end='')
+for i in range(0,len(a)):
+    if(i==0):
+        print(factorial(int(a[i])),end='')
+    else:
+        print(', ',factorial(int(a[i])),end='')
