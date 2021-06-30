@@ -1,3 +1,4 @@
+"""""
 Question:
 With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
 Suppose the following input is supplied to the program:
@@ -8,4 +9,14 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 Consider use dict()
+"""
 
+#def square(num):
+ #   return num*num
+
+dic = {1:1}
+var = input("Enter a number : ")
+for i in range(2,int(var)+1):
+   dic[i]=i*i
+
+print(dic)
