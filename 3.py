@@ -11,9 +11,6 @@ In case of input data being supplied to the question, it should be assumed to be
 Consider use dict()
 """
 
-#def square(num):
- #   return num*num
-
 dic = {1:1}
 var = input("Enter a number : ")
 for i in range(2,int(var)+1):

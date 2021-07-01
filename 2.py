@@ -17,6 +17,14 @@ def factorial(num):
         result = i*result
     return result
 
+"""
+def fact(num):
+    if(num==1):
+        return 1
+    else:
+        result = num*fact(num)
+"""
+
 a = input("Enter numbers : ").split()
 print("Factorial of given numbers : ",end='')
 for i in range(0,len(a)):
