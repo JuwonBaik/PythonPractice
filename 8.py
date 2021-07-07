@@ -1,3 +1,4 @@
+"""
 Question:
 Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
 Suppose the following input is supplied to the program:
@@ -7,3 +8,14 @@ bag,hello,without,world
 
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
+"""
+list = input("Enter words : ").split(',')
+slist = sorted(list)
+
+for i in range(len(slist)):
+    if(i==0): print(slist[i],end='')
+    else: print(', ',slist[i],end='')
+
+print(list)
+print(list.sort())
+print(list)
