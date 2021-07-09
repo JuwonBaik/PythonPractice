@@ -15,7 +15,3 @@ slist = sorted(list)
 for i in range(len(slist)):
     if(i==0): print(slist[i],end='')
     else: print(', ',slist[i],end='')
-
-print(list)
-print(list.sort())
-print(list)

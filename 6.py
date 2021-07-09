@@ -18,8 +18,9 @@ In case of input data being supplied to the question, it should be assumed to be
 C = 50
 H = 30
 D = input("Enter numbers : ").split(",")
+
 for i in range(len(D)):
     Q = ((2*C*int(D[i]))/H)**(1/2)
     if(i==0):
-        print(int(Q))
+        print(int(Q),end='')
     else: print(',',int(Q),end='')
