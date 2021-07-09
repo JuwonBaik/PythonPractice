@@ -19,3 +19,5 @@ data = np.zeors([int(X),int(Y)])
 for i in range(X):
     for j in range(Y):
         data[i,j] = i*j
+
+#numpy를 설치해야된다는데 인터넷에서 하라는대로 해도 안돼요ㅠㅠㅠ
